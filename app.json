@@ -1,10 +1,10 @@
 {
   "expo": {
-    "name": "music",
-    "slug": "music",
+    "name": "Ambient Music",
+    "slug": "ambient-music",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "./assets/mp3.png",
     "userInterfaceStyle": "light",
     "splash": {
       "image": "./assets/splash.png",
@@ -21,10 +21,16 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.dheerajtp.ambientmusic"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "19907a32-ca49-463f-957f-da6b2c5a8299"
+      }
     }
   }
 }
